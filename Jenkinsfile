@@ -7,7 +7,7 @@ pipeline {
             steps {
                 // Your build steps here
                 container('nu-checker') {
-                  sh 'python ./checker.py all'
+                  sh 'vnu'
                 }
             }
         }
